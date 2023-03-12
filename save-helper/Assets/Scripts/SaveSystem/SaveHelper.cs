@@ -128,9 +128,9 @@ namespace ATCNK.SaveSystem
 
         #region DeleteMethods
 
-        public static void Delete()
+        public static void Delete(string key)
         {
-            PlayerPrefs.DeleteAll();
+            PlayerPrefs.DeleteKey(key);
         }
 
         public static void DeleteAll()
