@@ -11,8 +11,12 @@ Unity allows saving only 3 different variable tpyes which are integer, float and
 - Vector4
 - Quaternion
 
+SaveHelper is a static class so you can access it from anywhere. 
+
+You can load values with Load() and save with SaveVariableName like SaveVector2.
+
 It also has Delete method which removes the given key and DeleteAll method which removes all save. You can check if key exists with HasKey method. 
 
-SaveHelper is a static class so you can access it from anywhere.
-
 In the project, you can test save system with TestHelper game object. Assign values from inspector. You can save them with button 'X' and load them with button 'Z'. 
+
+![alt text](https://i.imgur.com/5yPfDfM.jpg)
